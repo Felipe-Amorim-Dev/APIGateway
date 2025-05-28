@@ -52,7 +52,7 @@ APIGateway/
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/APIGateway.git
+git clone https://github.com/Felipe-Amorim-Dev/APIGateway.git
 ```
 2. **Acesse o diretório:**
 ```bash
@@ -102,5 +102,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ## 👨‍💻 Autor
 
-Felipe Amorim
-GitHub • LinkedIn
+Felipe F. Amorim
