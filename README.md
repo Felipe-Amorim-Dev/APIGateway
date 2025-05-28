@@ -6,11 +6,11 @@ Este projeto é um **API Gateway genérico e reutilizável** desenvolvido em **A
 
 ## 🚀 Tecnologias Utilizadas
 
-![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)
-![YARP](https://img.shields.io/badge/YARP-Reverse%20Proxy-0066CC?logo=microsoft&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-Authentication-FFB400?logo=jsonwebtokens&logoColor=black)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET-Core-00599C?logo=dotnet&logoColor=white)
-![appsettings.json](https://img.shields.io/badge/Configuration-appsettings.json-green)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![YARP](https://img.shields.io/badge/YARP-Reverse_Proxy-0078D7?style=for-the-badge&logo=Microsoft&logoColor=white)](https://microsoft.github.io/reverse-proxy/)
+[![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+[![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Swagger](https://img.shields.io/badge/Swagger-UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
 
 - [.NET 8](https://dotnet.microsoft.com/)
 - [YARP (Yet Another Reverse Proxy)](https://microsoft.github.io/reverse-proxy/)
