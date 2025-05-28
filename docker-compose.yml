@@ -1,0 +1,15 @@
+services:
+  apigateway:
+    build:
+      context: .
+      dockerfile: APIGateWay.API/Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080    
+    networks:
+      - internal-net
+
+networks:
+  internal-net:
+    driver: bridge

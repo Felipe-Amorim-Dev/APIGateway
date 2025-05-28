@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|c:\\users\\felipe amorim\\projetos\\pessoal\\dotnet\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|solutionrelative:apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|c:\\users\\felipe amorim\\projetos\\pessoal\\dotnet\\apigateway\\apigateway.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|solutionrelative:apigateway.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|c:\\users\\felipe amorim\\projetos\\pessoal\\dotnet\\apigateway\\apigateway.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|solutionrelative:apigateway.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|c:\\users\\felipe amorim\\projetos\\pessoal\\dotnet\\apigateway\\apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45E5ADD3-4911-4C3E-91F0-D5213511D665}|APIGateWay.API\\APIGateWay.API.csproj|solutionrelative:apigateway.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Program.cs",
+              "RelativeDocumentMoniker": "APIGateWay.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Program.cs",
+              "RelativeToolTip": "APIGateWay.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T02:06:06.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Dockerfile",
+              "RelativeDocumentMoniker": "APIGateWay.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Dockerfile",
+              "RelativeToolTip": "APIGateWay.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-28T01:56:06.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\appsettings.json",
+              "RelativeDocumentMoniker": "APIGateWay.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\appsettings.json",
+              "RelativeToolTip": "APIGateWay.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T20:55:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIGateWay.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\APIGateWay\\APIGateWay.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIGateWay.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:41:34.163Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

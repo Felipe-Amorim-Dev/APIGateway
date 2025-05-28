@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "APIGateWay.API.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "auth/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIGateWay.API.DTOs.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

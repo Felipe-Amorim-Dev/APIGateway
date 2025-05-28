@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CALKIltxUQZuyaovvVi7utG0v72nvX2iyDlkwqkgumM=",
+  "Source": "APIGateWay.API",
+  "BasePath": "_content/APIGateWay.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
