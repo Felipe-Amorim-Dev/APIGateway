@@ -44,12 +44,6 @@ APIGateway/
 
 ## ✅ Boas Práticas Implementadas
 
-🔐 HTTPS obrigatório
-
-🔒 Autenticação JWT opcional por rota
-
-🧩 Arquitetura desacoplada e fácil de manter
-
 <img src="README/Boas Práticas Implementadas.png" width="100%"/>  
 
 ## 🛠️ Como executar
