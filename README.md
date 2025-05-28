@@ -19,6 +19,9 @@ Este projeto é um **API Gateway genérico e reutilizável** desenvolvido em **A
 - Configuração via `appsettings.json`
 
 ## 📁 Estrutura do Projeto
+
+<img src="README/Arquitetura-presentation.png" width="100%"/>  
+
 ```bash
 APIGateway/
 │
@@ -46,6 +49,8 @@ APIGateway/
 🔒 Autenticação JWT opcional por rota
 
 🧩 Arquitetura desacoplada e fácil de manter
+
+<img src="README/Boas Práticas Implementadas.png" width="100%"/>  
 
 ## 🛠️ Como executar
 ✅ Executar via .NET CLI
