@@ -39,6 +39,10 @@ APIGateway/
 └── Program.cs # Configuração do middleware, autenticação e proxy 
 ```
 
+## 🧠 Arquitetura do Projeto
+
+[![CodeFlow](https://img.shields.io/badge/CodeFlow-Ver%20Arquitetura-%23ff0000?style=for-the-badge&logo=github&logoColor=white)](https://Felipe-Amorim-Dev.github.io/APIGateway/docs/)
+
 ## ✅ Boas Práticas Implementadas
 
 🔐 HTTPS obrigatório
