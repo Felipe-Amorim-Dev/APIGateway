@@ -41,7 +41,7 @@ APIGateway/
 
 ## 🧠 Arquitetura do Projeto
 
-[![CodeFlow](https://img.shields.io/badge/CodeFlow-Ver%20Arquitetura-%23ff0000?style=for-the-badge&logo=github&logoColor=white)](https://Felipe-Amorim-Dev.github.io/APIGateway/docs/)
+[![CodeFlow](https://img.shields.io/badge/CodeFlow-Ver%20Arquitetura-%23ff0000?style=for-the-badge&logo=github&logoColor=white)](https://felipe-amorim-dev.github.io/APIGateway/?repo=Felipe-Amorim-Dev%2FAPIGateway)
 
 ## ✅ Boas Práticas Implementadas
 
