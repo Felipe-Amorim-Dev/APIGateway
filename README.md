@@ -1,3 +1,5 @@
+<img src="docs/Capa-ApiGateway.png" width="400px" align="right"/>
+  
 # 🛡️ API Gateway com .NET 8, YARP e JWT
 
 Este projeto é um **API Gateway genérico e reutilizável** desenvolvido em **ASP.NET Core 8** usando a biblioteca **YARP (Yet Another Reverse Proxy)**. Ele permite o roteamento de requisições para múltiplos serviços, com suporte a **HTTPS**, **autenticação JWT** e boas práticas de segurança.
@@ -17,6 +19,7 @@ Este projeto é um **API Gateway genérico e reutilizável** desenvolvido em **A
 - Autenticação com [JWT (JSON Web Token)](https://jwt.io/)
 - [ASP.NET Core Web API](https://learn.microsoft.com/aspnet/core/)
 - Configuração via `appsettings.json`
+
 
 ## 📁 Estrutura do Projeto
 ```bash
@@ -42,6 +45,8 @@ APIGateway/
 ## 🧠 Arquitetura do Projeto
 
 [![CodeFlow](https://img.shields.io/badge/CodeFlow-Ver%20Arquitetura-%23ff0000?style=for-the-badge&logo=github&logoColor=white)](https://felipe-amorim-dev.github.io/APIGateway/?repo=Felipe-Amorim-Dev%2FAPIGateway)
+
+<img src="docs/CodeFlow-ApiGateway.jpg" width="100%" />
 
 ## ✅ Boas Práticas Implementadas
 
