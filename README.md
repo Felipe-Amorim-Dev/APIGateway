@@ -42,6 +42,19 @@ dotnet build APIGateWay.sln
 dotnet run --project APIGateWay.API
 ```
 
+## 🏗️ Arquitetura e componentes
+
+- APIGateWay.API configura autenticação JWT Bearer e políticas de autorização.
+- YARP ReverseProxy lê Routes e Clusters da seção ReverseProxy em appsettings.
+- AuthController apresenta endpoint de demonstração para obtenção de token.
+- Swagger descreve os endpoints locais do Gateway.
+
+### Fluxo técnico
+
+1. Cliente → autenticação JWT → MapReverseProxy().RequireAuthorization() → cluster YARP → API de destino.
+2. Jwt:Key é fornecida por segredo de usuário ou variável de ambiente; issuer e audience são validados.
+3. O Gateway encaminha requisições; não substitui as regras de negócio das APIs de destino.
+
 <a id="licenca"></a>
 ## 📄 Licença
 
