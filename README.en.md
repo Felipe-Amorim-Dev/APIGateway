@@ -42,6 +42,40 @@ dotnet build APIGateWay.sln
 dotnet run --project APIGateWay.API
 ```
 
+## 🏗️ Gateway architecture
+
+`APIGateWay.API` is an ASP.NET Core 8 application using YARP 2.3.0 to route requests to configured downstream services.
+
+| Component | Responsibility |
+| --- | --- |
+| `Program.cs` | Dependency injection, authentication, middleware and reverse proxy pipeline |
+| `Controllers/AuthController.cs` | Demonstration token endpoint |
+| `Services/TokenService.cs` | JWT generation |
+| `Interfaces/ITokenService.cs` | Token generation abstraction |
+| `appsettings.json` | ReverseProxy routes/clusters and non-secret settings |
+
+### Request routing
+
+```mermaid
+flowchart LR
+    Client["HTTP client"] --> JWT["JWT validation"]
+    JWT --> YARP["YARP reverse proxy"]
+    YARP --> Routes["Routes and clusters"]
+    Routes --> API["Destination API"]
+```
+
+`MapReverseProxy().RequireAuthorization()` protects proxied routes with the configured JWT Bearer middleware. `Jwt:Key` is provided through local configuration or user secrets, while issuer and audience are validated against the application settings.
+
+### Local development
+
+```bash
+dotnet restore APIGateWay.sln
+dotnet build APIGateWay.sln
+dotnet run --project APIGateWay.API
+```
+
+The service destinations defined in `ReverseProxy` must point to the APIs used in your own environment.
+
 <a id="licenca"></a>
 ## 📄 License
 
