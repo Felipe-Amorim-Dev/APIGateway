@@ -7,7 +7,12 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 var jwtSettings = builder.Configuration.GetSection("Jwt");
-var secretKey = Encoding.UTF8.GetBytes(jwtSettings["Key"]);
+var configuredKey = jwtSettings["Key"];
+if (string.IsNullOrWhiteSpace(configuredKey) || Encoding.UTF8.GetByteCount(configuredKey) < 32)
+{
+    throw new InvalidOperationException("Configure Jwt:Key via environment variables or Secret Manager (at least 32 UTF-8 bytes).");
+}
+var secretKey = Encoding.UTF8.GetBytes(configuredKey);
 
 builder.Services.AddSingleton<ITokenService, TokenService>();
 
