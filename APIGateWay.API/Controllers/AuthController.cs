@@ -11,16 +11,20 @@ namespace APIGateWay.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly ITokenService _tokenService;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(ITokenService tokenService)
+        public AuthController(ITokenService tokenService, IConfiguration configuration)
         {
             _tokenService = tokenService;
+            _configuration = configuration;
         }
 
         [HttpPost("token")]
         public IActionResult GetToken([FromBody] LoginRequestDto dto)
         {
-            if (dto.nomeUsuario == "admin" && dto.senha == "suaSenha")
+            var demoUser = _configuration["DemoAuth:Username"];
+            var demoPassword = _configuration["DemoAuth:Password"];
+            if (!string.IsNullOrWhiteSpace(demoUser) && !string.IsNullOrWhiteSpace(demoPassword) && dto.nomeUsuario == demoUser && dto.senha == demoPassword)
             {
                 var token = _tokenService.GenerateToken(dto.nomeUsuario);
                 return Ok(new { token });
