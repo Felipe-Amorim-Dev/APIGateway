@@ -1,5 +1,8 @@
 # APIGateway — ASP.NET Core + YARP
 
+[![Compilação .NET](https://github.com/Felipe-Amorim-Dev/APIGateway/actions/workflows/ci.yml/badge.svg)](https://github.com/Felipe-Amorim-Dev/APIGateway/actions/workflows/ci.yml)
+
+
 **Protótipo educacional; não preparado para produção.** This repository demonstrates a .NET 8 reverse proxy using YARP, JWT bearer validation and route protection. It has not undergone a production security review.
 
 ## Security remediation
