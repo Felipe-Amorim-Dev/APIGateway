@@ -1,9 +1,9 @@
 # APIGateway — ASP.NET Core + YARP
 
-**Educational prototype — NOT production-ready.** This repository demonstrates a .NET 8 reverse proxy using YARP, JWT bearer validation and route protection. It has not undergone a production security review.
+**Protótipo educacional; não preparado para produção.** This repository demonstrates a .NET 8 reverse proxy using YARP, JWT bearer validation and route protection. It has not undergone a production security review.
 
 ## Security remediation
-- Hard-coded demonstration credentials have been replaced (in the remediation branch) with optional local configuration keys `DemoAuth:Username` and `DemoAuth:Password`. **Do not use this demo endpoint in production.** Replace it with an identity provider and hardened authentication before real use.
+- Hard-coded demonstration credentials have been replaced with optional local configuration keys `DemoAuth:Username` and `DemoAuth:Password`. **Do not use this demo endpoint in production.** Replace it with an identity provider and hardened authentication before real use.
 - Set `Jwt:Key` via environment variable `Jwt__Key` or .NET user-secrets; use a random key with at least 32 UTF-8 bytes. No real secret belongs in `appsettings.json`.
 - Previously published JWT keys must be rotated if they were used for any actual environment. Removing the current value does not remove Git history.
 - Example configurations should only point to local or dedicated test services.
